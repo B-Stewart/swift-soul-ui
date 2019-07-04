@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/ssui-background-video.esm.js"></script>
+    <script nomodule src="/build/ssui-background-video.js"></script>
+  </head>
+  <body>
+    <ssui-background-video
+      autoplay="true"
+      muted="true"
+      loop="true"
+      preload="auto"
+      overlay-background="#ffffff"
+      overlay-opacity="0.5"
+      video-srcs="http://www.wedistill.io/videos/Distill-Header-Video.mp4"
+    >
+      <div
+        slot="content"
+        style="display: flex; flex-direction: column; align-items: center; justify-content: center;  padding-top: 36px;
+        padding-bottom: 36px;text-align: center;font-weight: 600;color: blue;"
+      >
+        <h1>Heading</h1>
+        <p>This is a test</p>
+      </div>
+    </ssui-background-video>
+  </body>
+</html>
