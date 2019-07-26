@@ -1,4 +1,4 @@
-# swift-soul-ui
+# Swift Soul UI
 
 A collection of useful web components
 
@@ -6,3 +6,9 @@ A collection of useful web components
 
 - `npm i`
 - `npx lerna bootstrap`
+
+## TODO:
+
+- Documentation
+- Storybook
+- Website
