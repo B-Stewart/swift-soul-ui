@@ -1,6 +1,6 @@
 {
   "name": "@swift-soul-ui/background-video",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Brayden Stewart <bstewart@swiftsoulinteractive.com> (https://swiftsoulinteractive.com)",
   "description": "A Background Video Component",
   "main": "dist/index.js",
@@ -27,5 +27,9 @@
   "license": "MIT",
   "dependencies": {
     "objectFitPolyfill": "2.3.0"
+  },
+  "gitHead": "c424c80d9b7fdf6df5b031c22b8aece19790c5bf",
+  "publishConfig": {
+    "access": "public"
   }
 }
