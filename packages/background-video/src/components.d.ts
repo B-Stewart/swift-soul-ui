@@ -15,6 +15,10 @@ export namespace Components {
     */
     'autoplay': boolean;
     /**
+    * Should video show controls
+    */
+    'controls': boolean;
+    /**
     * Should video loop
     */
     'loop': boolean;
@@ -31,9 +35,21 @@ export namespace Components {
     */
     'overlayOpacity': string;
     /**
+    * Video poster while loading
+    */
+    'poster': string;
+    /**
     * Should video be muted
     */
     'preload': string;
+    /**
+    * The object fit of the video Defaults to 'cover'
+    */
+    'videoFit': string;
+    /**
+    * The object position of the video Defaults to 'center center'
+    */
+    'videoPosition': string;
     /**
     * The video url(s) seperated by spaces
     */
@@ -61,6 +77,10 @@ declare namespace LocalJSX {
     */
     'autoplay'?: boolean;
     /**
+    * Should video show controls
+    */
+    'controls'?: boolean;
+    /**
     * Should video loop
     */
     'loop'?: boolean;
@@ -77,9 +97,21 @@ declare namespace LocalJSX {
     */
     'overlayOpacity'?: string;
     /**
+    * Video poster while loading
+    */
+    'poster'?: string;
+    /**
     * Should video be muted
     */
     'preload'?: string;
+    /**
+    * The object fit of the video Defaults to 'cover'
+    */
+    'videoFit'?: string;
+    /**
+    * The object position of the video Defaults to 'center center'
+    */
+    'videoPosition'?: string;
     /**
     * The video url(s) seperated by spaces
     */

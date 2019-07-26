@@ -4,7 +4,7 @@
 
 ### TODO:
 
-1. Browser Compatibility (polyfills?)
+1. Dynamic Polyfill
 2. Unit Tests
 3. Customizability
 

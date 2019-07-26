@@ -1,7 +1,8 @@
 {
   "name": "@swift-soul-ui/background-video",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "author": "Brayden Stewart <bstewart@swiftsoulinteractive.com> (https://swiftsoulinteractive.com)",
+  "description": "A Background Video Component",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
@@ -21,7 +22,10 @@
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "devDependencies": {
-    "@stencil/core": "1.1.4"
+    "@stencil/core": "1.2.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "objectFitPolyfill": "2.3.0"
+  }
 }
